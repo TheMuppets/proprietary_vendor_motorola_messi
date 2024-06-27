@@ -427,7 +427,6 @@ PRODUCT_PACKAGES += \
     ModFmwkProxyService \
     ModService \
     ProjectorApp \
-    ims \
     com.motorola.motosignature
 
 PRODUCT_PACKAGES += \
