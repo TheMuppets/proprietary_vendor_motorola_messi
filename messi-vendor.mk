@@ -55,17 +55,11 @@ PRODUCT_PACKAGES += \
     libvibratorhw \
     motorola.hardware.vibrator@1.0 \
     com.motorola.mod@1.0_vendor \
-    android.hardware.gatekeeper@1.0-impl-qti \
-    android.hardware.keymaster@3.0-impl-qti \
-    gatekeeper.msm8998 \
     keystore.msm8998 \
     vulkan.msm8998 \
     libQSEEComAPI \
     libdualcameraddm \
     libiio \
-    libkeymasterdeviceutils \
-    libkeymasterprovision \
-    libkeymasterutils \
     libmmcamera2_frame_algorithm \
     libmmcamera2_is \
     libmmcamera2_stats_algorithm \
@@ -380,6 +374,9 @@ PRODUCT_PACKAGES += \
     motorola.hardware.audio.eqservice@1.0_vendor \
     libmmieffectswrapper \
     libspeakerbundle \
+    android.hardware.gatekeeper@1.0-impl-qti \
+    android.hardware.keymaster@3.0-impl-qti \
+    gatekeeper.msm8998 \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     libGPreqcancel \
     libGPreqcancel_svc \
@@ -388,6 +385,9 @@ PRODUCT_PACKAGES += \
     libdrmfs \
     libdrmtime \
     libhdcpsrm \
+    libkeymasterdeviceutils \
+    libkeymasterprovision \
+    libkeymasterutils \
     libqisl \
     librpmb \
     libsecureui_svcsock \
